@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.ini\OpenWithProgids]
+"Notepad++.ini"=""
+
+[HKEY_CLASSES_ROOT\Notepad++.ini]
+@="ini Configuration File"
+
+[HKEY_CLASSES_ROOT\Notepad++.ini\DefaultIcon]
+@="C:\\Windows\\System32\\shell32.dll,-151"
+
+[HKEY_CLASSES_ROOT\Notepad++.ini\shell]
+
+[HKEY_CLASSES_ROOT\Notepad++.ini\shell\open]
+
+[HKEY_CLASSES_ROOT\Notepad++.ini\shell\open\command]
+@="\"C:\\Program Files\\Notepad++\\notepad++.exe\" \"%1\""

@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.reg\OpenWithProgids]
+"Notepad++.reg"=""
+
+[HKEY_CLASSES_ROOT\Notepad++.reg]
+@="Registration Entries"
+
+[HKEY_CLASSES_ROOT\Notepad++.reg\DefaultIcon]
+@="C:\\Windows\\System32\\%windir%\system32\regedit.exe,2"
+
+[HKEY_CLASSES_ROOT\Notepad++.reg\shell]
+
+[HKEY_CLASSES_ROOT\Notepad++.reg\shell\open]
+
+[HKEY_CLASSES_ROOT\Notepad++.reg\shell\open\command]
+@="\"C:\\Program Files\\Notepad++\\notepad++.exe\" \"%1\""

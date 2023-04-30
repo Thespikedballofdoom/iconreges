@@ -1,0 +1,1 @@
+once you do the trick, you need to open by default with notepad or whatever, than set notepad++ default.

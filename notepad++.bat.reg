@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.bat\OpenWithProgids]
+"Notepad++.bat"=""
+
+[HKEY_CLASSES_ROOT\Notepad++.bat]
+@="Batchfile"
+
+[HKEY_CLASSES_ROOT\Notepad++.bat\DefaultIcon]
+@="C:\\Windows\\System32\\shell32.dll,71"
+
+[HKEY_CLASSES_ROOT\Notepad++.bat\shell]
+
+[HKEY_CLASSES_ROOT\Notepad++.bat\shell\open]
+
+[HKEY_CLASSES_ROOT\Notepad++.bat\shell\open\command]
+@="\"C:\\Program Files\\Notepad++\\notepad++.exe\" \"%1\""
